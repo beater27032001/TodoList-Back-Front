@@ -22,14 +22,14 @@ Este é um projeto pessoal de um Todo List full stack desenvolvido com React, Vi
 
 ### Backend
 
-- Java
+- [Java](https://www.java.com/pt-BR/)
 - [Spring Boot](https://spring.io/projects/spring-boot)
 - Banco de Dados H2 (embarcado)
 
 ## Pré-requisitos
 
-- Node.js
-- JDK (Java Development Kit)
+- [Node.js](https://nodejs.org/)
+- [JDK (Java Development Kit)](https://www.oracle.com/br/java/technologies/downloads/)
 - IDE de sua preferência (como IntelliJ IDEA, Eclipse, etc.)
 
 ## Instalação e Execução
@@ -41,14 +41,18 @@ Siga estas etapas para rodar o projeto na sua máquina local:
 1. **Clone o repositório:**
 
    ```bash
-   git clone https://github.com/seu-usuario/todo-list-fullstack.git
-   cd todo-list-fullstack/backend
+   git clone https://github.com/beater27032001/TodoList-Back-Front.git
+   cd TodoList-Back-Front
 
 2. **Importe o projeto na sua IDE** e aguarde a importação das dependências do Maven.
 
 3. **Execute o aplicativo Spring Boot.** Isso iniciará o servidor backend na porta padrão **8080**.
 
 4. **Verifique se o backend está funcionando** acessando **http://localhost:8080** no seu navegador. Você deve ver uma página padrão do Spring indicando que o servidor está rodando.
+
+5. **Verifique o caminho no front para se preciso trocar no back.**
+
+   <img src="caminho-back.png" alt="Caminho Front" width="auto" height="auto" />
 
 ### Frontend (React)
 
@@ -71,7 +75,7 @@ Siga estas etapas para rodar o projeto na sua máquina local:
 
 5. **O frontend será executado e estará disponível, e você deve verificar o caminho.**
 
-6. 
+   <img src="caminho-front.png" alt="Caminho Front" width="auto" height="auto" />
 
 
   
