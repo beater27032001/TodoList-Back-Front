@@ -1,0 +1,49 @@
+.todo_form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: -50px;
+}
+
+.todo_textarea{
+    background-color: var(--white);
+    flex: 1;
+    padding: 10px 100px 10px 15px;
+    border: 0px solid transparent;
+    border-radius: 3px;
+    margin-right: 10px;
+    height: 20px;
+    line-height: 1.5;
+    resize: none;
+}
+
+.todo_button{
+    gap: 0.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 3px;
+    width: 70px;
+    height: 40px;
+    cursor: pointer;
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.todo_span{
+    font-weight: bold;
+}
+
+.add_task{
+    /* justify-content: center;
+    align-items:center; */
+    font-size: 20px;
+    /* color: var(--white) */
+}
+
+.todo_button:hover{
+    background-color: var(--white);
+    color: var(--black);
+}

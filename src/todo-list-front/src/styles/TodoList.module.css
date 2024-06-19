@@ -1,0 +1,6 @@
+.todo_list{
+    flex: 1;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 100px;
+}

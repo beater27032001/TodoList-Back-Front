@@ -1,0 +1,52 @@
+.todo_item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.todo_item span{
+    flex: 1;
+    color: var(--white)
+}
+
+.delete{
+    font-size: 24px;
+    cursor: pointer;
+    color: var(--black)
+}
+
+.edit{
+    font-size: 20px;
+    cursor: pointer;
+    color: var(--black);
+    margin-right: 10px;
+}
+
+.delete:hover{
+    color: var(--white);
+}
+
+.edit:hover{
+    color: var(--white);
+}
+
+.save{
+    font-size: 20px;
+    cursor: pointer;
+    color: var(--black);
+    margin-right: 10px;
+}
+
+.save:hover{
+    color: var(--white);
+}
+
+.todo_input{
+    flex:1;
+    padding: 5px;
+    border: 0px solid transparent;
+    border-radius: 3px;
+    margin-right: 25px;
+}
